@@ -1,0 +1,77 @@
+<div id="nav">
+    <ul id="menu-list">
+        <li class="menu-list-item" (click)="showDepartamentos()">
+            <a class="menu-list-link" href="#">
+                Departamentos 
+                <span *ngIf="this.departamentos">▴</span>
+                <span *ngIf="!this.departamentos">▾</span>
+            </a>
+            <ul *ngIf="this.departamentos" class="dropdown">
+                <li>
+                    <a href="#">
+                        Esportes
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Cosméticos
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Papelaria
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Casa
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-list-item">
+            <a class="menu-list-link" href="#">Promoções</a>
+        </li>
+        <li class="menu-list-item">
+            <a class="menu-list-link" href="#">Nossa Loja</a>
+        </li>
+        <li class="menu-list-item" (click)="showPoliticas()">
+            <a class="menu-list-link" href="#">
+                Políticas
+                <span *ngIf="this.politicas">▴</span>
+                <span *ngIf="!this.politicas">▾</span>
+            </a>
+            <ul *ngIf="this.politicas" class="dropdown">
+                <li>
+                    <a href="#">
+                        Entrega
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Troca
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-list-item" (click)="showMinhaConta()">
+            <a class="menu-list-link" href="#">
+                Minha Conta
+                <span *ngIf="this.minhaConta">▴</span>
+                <span *ngIf="!this.minhaConta">▾</span>
+            </a>
+            <ul *ngIf="this.minhaConta" class="dropdown">
+                <li>
+                    <a href="#">
+                        Meus dados
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Meus Pedidos
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

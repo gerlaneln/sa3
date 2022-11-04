@@ -1,0 +1,161 @@
+<app-header></app-header>
+<app-sidenav></app-sidenav>
+<main>
+    <div id="product-info">
+        <div>
+            <img id="prod-photo" src="../../../assets/product_banner.png" alt="Produto" />
+        </div>
+        <div id="prod-detail">
+            <h2 id="prod-title">
+                Nome do produto
+            </h2>
+            <div id="prod-detail-txt">
+                <span id="preco">R$ 0,00</span>
+                <span>Descrição</span>
+                <span>Tamanho</span>
+                <div id="frete">
+                    <span>Calcular frete:</span>
+                    <div>
+                        <input type="number" name="cep" id="input-cep" placeholder="Digite somente números" maxlength="9">
+                    </div>
+                    <div>
+                        <button type="button" id="btn-cep">Calcular</button>
+                    </div>
+                </div>
+            </div>
+            <button id="shopping-btn">
+                <img id="shopping-cart" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/shopping-cart--v1.png"
+                    alt="Carrinho de compras" />
+                Adicionar ao carrinho
+            </button>
+        </div>
+    </div>
+    <div id="main-content">
+        <div id="related-section">
+            <span id="related-title">Semelhantes</span>
+        </div>
+        <div id="new-cards">
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+            <div class="new-card">
+                <div class="new-card-img">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/shopping-bag.png" alt="Produto" />
+                </div>
+                <div class="new-card-txt">
+                    <span>Nome do produto</span>
+                    <span>R$ 0,00</span>
+                </div>
+                <div id="new-card-btn-div" (click)="openProduct()">
+                    <a class="new-card-btn" href="/product">Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<app-footer></app-footer>
